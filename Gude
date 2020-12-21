@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+	clrscr();
+	int a;
+	int b;	
+//or 	int a,b;
+	printf("please inrer first number=");
+	scanf("%d",&a);
+	printf("PLESE enter second number=");
+	scanf("%d",&b);
+	int c=a+b;
+	printf("YOUR a+b result is= %d",c);
+getch();
+	}
